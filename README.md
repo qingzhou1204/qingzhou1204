@@ -6,14 +6,19 @@ I build **zero-dependency AI developer tools** and **100% browser-local financia
 
 ---
 
-### 🏆 Flagship Projects · 两大核心旗舰
+### 🏆 Flagship Projects · 核心旗舰项目
 
-#### 1. 🥗 [`context-diet`](https://github.com/qingzhou1204/context-diet) — AI Context Burn & Code Bloat Guard (`CLI + GitHub Action`)
+#### 1. 🎨 [`deckcraft`](https://github.com/qingzhou1204/deckcraft) — Anti-"AI Slop" Editorial Design Skill & Commercial Templates (`Agent Skill + Live Gallery`)
+- Eliminates purple-neon glow gradients, emoji bullets, and broken external CDNs from AI-generated pitch decks, B2B proposals, QBRs, and `@page` print PDFs
+- Ships **6 editorial systems** (`Swiss`, `FT Salmon`, `Linear Monochrome`, `Blueprint`, `Warm Linen`, `Obsidian`) + 15-rule Anti-Slop gate + one-line `.claude-plugin` install
+- 👉 **[Interactive 6-System Gallery & Live Token Editor](https://qingzhou1204.github.io/tools/deckcraft/)**
+
+#### 2. 🥗 [`context-diet`](https://github.com/qingzhou1204/context-diet) — AI Context Burn & Code Bloat Guard (`CLI + GitHub Action`)
 - Pinpoints Token black holes (`lockfiles`, `dist/`, large CSV/logs) for **Claude Code / Cursor / Codex** in 1 second (`0` dependencies)
 - Auto-generates `.cursorignore` & `.claudeignore` + standalone HTML dashboard
 - Audits `git diff` for AI narration fluff, duplicated lines, and micro-file sprawl (`--fail-under` PR gate)
 
-#### 2. 🧾 [FapiaoKit · 数电发票全离线解析查重台](https://qingzhou1204.github.io/tools/fapiao-kit/) (`Local-First`)
+#### 3. 🧾 [FapiaoKit · 数电发票全离线解析查重台](https://qingzhou1204.github.io/tools/fapiao-kit/) (`Local-First`)
 - Parses China Digital E-Invoices (`XML` / `OFD` / text-layer `PDF`) **100% locally with zero cloud upload**
 - Prevents Excel scientific notation corruption on 20-digit invoice IDs
 - Catches cross-format duplicate claims (`XML` + `OFD`) & exports multi-sheet `.xlsx` + batch-renamed archives (Pro)
@@ -25,6 +30,7 @@ I build **zero-dependency AI developer tools** and **100% browser-local financia
 
 | Tool / 工具 | Core Value / 核心价值 | Live URL |
 | :--- | :--- | :--- |
+| **DeckCraft (Anti-Slop Skill)** | Editorial HTML/PDF decks & proposals across 6 design systems | [Live Gallery](https://qingzhou1204.github.io/tools/deckcraft/) |
 | **FapiaoKit (5-Free Trial)** | Digital E-Invoice XML/OFD parser & cross-format duplicate guard | [Try Free](https://qingzhou1204.github.io/tools/fapiao-kit/) |
 | **CSV & Invoice Merger** | Multi-CSV merge, UTF-8/GBK auto-detect, Excel-safe BOM export | [Open](https://qingzhou1204.github.io/tools/csv-invoice-merger/) |
 | **Offline Quote / Proforma PDF** | Dual CNY/USD quotes with clean A4 PDF print layout | [Open](https://qingzhou1204.github.io/tools/quote-generator/) |
@@ -35,6 +41,7 @@ I build **zero-dependency AI developer tools** and **100% browser-local financia
 ---
 
 ### 📦 All Public Repositories
+- **[`deckcraft`](https://github.com/qingzhou1204/deckcraft)** — Anti-AI-slop editorial design skill & `@page` HTML-to-PDF systems (`MIT`)
 - **[`context-diet`](https://github.com/qingzhou1204/context-diet)** — Audit AI context burn & catch AI code bloat (`MIT`)
 - **[`local-privacy-toolkit`](https://github.com/qingzhou1204/local-privacy-toolkit)** — Browser-local office/e-commerce tools + Chrome MV3 table exporter (`MIT`)
 - **[`agent-ui-spatial-lab`](https://github.com/qingzhou1204/agent-ui-spatial-lab)** — Spatial co-pilot UX experiment for AI Agents (`MIT`)
