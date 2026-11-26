@@ -1,31 +1,41 @@
 # Hi there, I'm QingZhou (`@qingzhou1204`) 👋
 
-**Indie Developer & AI Workflow Builder · 独立开发者 & AI 自动化工具作者**
+**Indie Developer & AI Infra Builder · 独立开发者 & 离线效率工具作者**
 
-I build **100% browser-local, zero-install productivity tools** and **Human-in-the-Loop AI Agent workflows** that run directly on your device without uploading sensitive data.
+I build **zero-dependency AI developer tools** and **100% browser-local financial/e-commerce utilities** validated by real-world workflow demand.
 
 ---
 
-### 🌐 Free Online Privacy Tools Hub · 免费离线工具箱官网
-👉 **Launch Live App**: **[https://qingzhou1204.github.io](https://qingzhou1204.github.io)**
+### 🏆 Flagship Projects · 两大核心旗舰
 
-| Tool / 工具 | What it solves / 解决什么痛点 | Live Entry / 在线直达 |
+#### 1. 🥗 [`context-diet`](https://github.com/qingzhou1204/context-diet) — AI Context Burn & Code Bloat Guard (`CLI + GitHub Action`)
+- Pinpoints Token black holes (`lockfiles`, `dist/`, large CSV/logs) for **Claude Code / Cursor / Codex** in 1 second (`0` dependencies)
+- Auto-generates `.cursorignore` & `.claudeignore` + standalone HTML dashboard
+- Audits `git diff` for AI narration fluff, duplicated lines, and micro-file sprawl (`--fail-under` PR gate)
+
+#### 2. 🧾 [FapiaoKit · 数电发票全离线解析查重台](https://qingzhou1204.github.io/tools/fapiao-kit/) (`Local-First`)
+- Parses China Digital E-Invoices (`XML` / `OFD` / text-layer `PDF`) **100% locally with zero cloud upload**
+- Prevents Excel scientific notation corruption on 20-digit invoice IDs
+- Catches cross-format duplicate claims (`XML` + `OFD`) & exports multi-sheet `.xlsx` + batch-renamed archives (Pro)
+
+---
+
+### 🌐 Free Browser-Local Utilities Hub · 免费工具矩阵
+👉 **Live Web Hub**: **[https://qingzhou1204.github.io](https://qingzhou1204.github.io)**
+
+| Tool / 工具 | Core Value / 核心价值 | Live URL |
 | :--- | :--- | :--- |
-| **CSV & Invoice Merger** | Multi-department CSV merging, UTF-8/GBK auto-decode, duplicate invoice & negative amount guard | [Open Tool](https://qingzhou1204.github.io/tools/csv-invoice-merger/) |
-| **Offline Quote / Proforma PDF** | Dynamic line items, CNY/USD conversion, A4 print-to-PDF export | [Open Tool](https://qingzhou1204.github.io/tools/quote-generator/) |
-| **E-Commerce Image + SKU Profit** | Batch 800×800 white-background JPEG compression (native ZIP export) + SKU loss alerts | [Open Tool](https://qingzhou1204.github.io/tools/ecommerce-kit/) |
-| **Markdown → Anki Converter** | Hierarchical tags from headings, Q/A + concept parsing, cross-file deduplication | [Open Tool](https://qingzhou1204.github.io/tools/md-to-anki/) |
-| **Agent UI Spatial Co-Pilot Lab** | Interactive UX experiment: Spatial direct-manipulation vs. linear chat (`Space` pause, takeover, branch A/B) | [Open Lab](https://qingzhou1204.github.io/tools/agent-ui-lab/) |
+| **FapiaoKit (5-Free Trial)** | Digital E-Invoice XML/OFD parser & cross-format duplicate guard | [Try Free](https://qingzhou1204.github.io/tools/fapiao-kit/) |
+| **CSV & Invoice Merger** | Multi-CSV merge, UTF-8/GBK auto-detect, Excel-safe BOM export | [Open](https://qingzhou1204.github.io/tools/csv-invoice-merger/) |
+| **Offline Quote / Proforma PDF** | Dual CNY/USD quotes with clean A4 PDF print layout | [Open](https://qingzhou1204.github.io/tools/quote-generator/) |
+| **E-Commerce Image + SKU Kit** | Canvas 800×800 compression (native JS ZIP) + SKU loss alert | [Open](https://qingzhou1204.github.io/tools/ecommerce-kit/) |
+| **Markdown → Anki Converter** | Hierarchical heading tags, deduplication, UTF-8 TSV export | [Open](https://qingzhou1204.github.io/tools/md-to-anki/) |
+| **Agent UI Spatial Lab** | Spatial direct manipulation vs. linear chat UX prototype | [Open Lab](https://qingzhou1204.github.io/tools/agent-ui-lab/) |
 
 ---
 
-### 📦 Featured Repositories · 精选仓库
-- **[`local-privacy-toolkit`](https://github.com/qingzhou1204/local-privacy-toolkit)** — Browser-local office/e-commerce/study utilities + Chrome MV3 Web-Table-to-CSV extension (`MIT`)
-- **[`agent-ui-spatial-lab`](https://github.com/qingzhou1204/agent-ui-spatial-lab)** — Beyond linear chat boxes: spatial direct-manipulation prototype for AI Agents (`MIT`)
-- **[`qingzhou1204.github.io`](https://github.com/qingzhou1204/qingzhou1204.github.io)** — Live bilingual web hub & automated verification suite
-
----
-
-### 💼 Pro Offline Bundle & Custom Automation
-- **Pro Air-Gapped Bundle + Chrome MV3 Extension**: Instant auto-delivery via [QingZhou LocalTools Hub](https://qingzhou1204.github.io/#pro)
-- **Custom Python / n8n / Chrome Extension / Excel-PDF Automation**: [Open a Custom Request Issue](https://github.com/qingzhou1204/local-privacy-toolkit/issues/new?title=%5BCustom%20Tool%20Request%5D+)
+### 📦 All Public Repositories
+- **[`context-diet`](https://github.com/qingzhou1204/context-diet)** — Audit AI context burn & catch AI code bloat (`MIT`)
+- **[`local-privacy-toolkit`](https://github.com/qingzhou1204/local-privacy-toolkit)** — Browser-local office/e-commerce tools + Chrome MV3 table exporter (`MIT`)
+- **[`agent-ui-spatial-lab`](https://github.com/qingzhou1204/agent-ui-spatial-lab)** — Spatial co-pilot UX experiment for AI Agents (`MIT`)
+- **[`qingzhou1204.github.io`](https://qingzhou1204.github.io)** — Live bilingual web hub
